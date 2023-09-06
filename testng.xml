@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/projects/mts-payment-test">
+        <classes>
+            <class name="by.aston.CardPaymentTest">
+                <methods>
+                    <include name="testInputPhoneNumberAndMoneyValuesAreCorrectIntoFrameHeaderAndFrameButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
